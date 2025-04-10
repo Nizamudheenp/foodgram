@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+/*header section start*/
+
+button , a.normal{
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(241, 240, 240);
+    color: #000;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 600;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+a.normal{
+    line-height: normal;
+    border: 1px solid black;
+    background-color: #fff;
+}
+a.normal:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.section-p1{
+    padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 85px;
+    padding: 5px;
+    background: rgb(223, 219, 219);
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0,0, 0, 0.6);
+    z-index: 999;
+    position: fixed; 
+}
+.logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+.dropdownmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dropdownmenu li{
+    position: relative;
+    list-style: none;
+    cursor: pointer; 
+}
+.dropdownmenu a{
+    color: #222;
+    font-weight: bold;
+    font-family: Courier, monospace;
+    font-size: 18px;
+    padding: 12px 40px;
+    margin: 1px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    
+}
+.dropdownmenu li:hover a{
+    background: #222;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+/*header section end*/
+
+
+/*main section start */
+
+.container{
+    width: 100%;
+    padding-top: 80px;
+    background-color: rgb(241, 240, 240);
+}
+.container h1{
+    padding: 35px 0 0 0;
+    font-size: 50px;
+    color: #222;
+    margin-left: 40%; 
+}
+
+.container h2{
+    margin-bottom: 15px;
+}
+
+.container .feedback{
+    display: flex;
+    justify-content:space-between ;
+    padding: 50px;
+    margin: 50px;
+    font-family: cursive;
+    color: #222;
+    background-color: #e5e4e4;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px rgb(6, 6, 6);
+}
+.container video{
+    height: 300px;
+    border-radius: 10px;
+}
+.feedback p{
+    padding-left: 50px;
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+
+/*main section end */
